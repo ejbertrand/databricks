@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %sql
+# MAGIC SELECT * FROM bronze.crimes_eddas
+
+# COMMAND ----------
+
 # File location and type
 file_location =  '/mnt/raw/autoloader/input/'
 database = 'bronze'
